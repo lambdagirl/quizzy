@@ -46,7 +46,6 @@ def get_question(category):
 @app.route('/')
 @app.route('/entry', methods=['Get','POST'])
 def index():
-    #data = get_saved_data()
     return render_template('entry.html',
                             the_title = 'Welcome to Quizzy!',
                             )
