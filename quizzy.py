@@ -5,7 +5,7 @@ import sqlite3
 from datetime import datetime
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'very hard to guess string'
+app.config['SECRET_KEY'] = b'Lr\x9b\x81o\xa9U\x9f>\x9e\xae7qD\xfbZ'
 app.config['BOOTSTRAP_SERVE_LOCAL'] = True
 ##################GETQUESTION
 
